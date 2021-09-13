@@ -14,7 +14,7 @@
 
 <div class="card-wrapper">
     <div class="card-template">
-        <img src="assets/template.webp" width="300" height="150" />
+        <img src="build/assets/template.webp" width="300" height="150" />
     </div>
     {#await promise}
     {:then data}

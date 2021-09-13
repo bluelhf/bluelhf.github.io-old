@@ -22,7 +22,7 @@ function showPage() {
 const app = new App({
 	target: document.body,
 	props: {
-		src: 'assets/ilari.webp'
+		src: 'build/assets/ilari.webp'
 	}
 });
 
