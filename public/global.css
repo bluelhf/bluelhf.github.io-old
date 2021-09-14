@@ -17,7 +17,7 @@
 		--main-bg-colour: #0f0f0f
 	}
 
-	span, h2 {
+	#text, h2 {
 		color: #ddd;
 	}
 }

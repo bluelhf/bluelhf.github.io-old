@@ -19,6 +19,16 @@ function showPage() {
 	}, 100);
 }
 
+let pastVW = [window.outerWidth, window.outerWidth];
+setInterval(() => {
+	if (window.outerWidth != pastVW[0] && window.outerWidth == pastVW[1]) {
+		console.log("The size of the viewport has changed without a reload.\nThis fucks with the vw unit on some browsers for some reason.\nReloading to accommodate.");
+		location.reload();
+	}
+	pastVW[0] = pastVW[1];
+	pastVW[1] = window.outerWidth;
+}, 100);
+
 const app = new App({
 	target: document.body,
 	props: {

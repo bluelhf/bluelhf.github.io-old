@@ -14,13 +14,14 @@
 
 <div class="card-wrapper">
     <div class="card-template">
-        <img src="build/assets/template.webp" width="300" height="150" />
+        <img alt="Project Card" src="build/assets/template.webp" width="300" height="150" />
     </div>
     {#await promise}
+        <!-- Do nothing -->
     {:then data}
     <div class="card">
         <a href={href}>
-            <img src={data.ogImage.url} width={data.ogImage.width} height={data.ogImage.height}/>
+            <img alt="Project Card" src={data.ogImage.url} width={data.ogImage.width} height={data.ogImage.height}/>
         </a>
     </div>
     {/await}
@@ -41,18 +42,20 @@
     grid-area: 1 / 1;
 }
 
-
-
 .card img, .card-template img {
     margin: 1%;
-    width: calc(max(30vw, 30vh));
+    max-width: 85vw;
+    margin: 0 0 1em 0;
+    width: 30em;
     border-radius: 10px;
     height: auto;
     box-shadow: 0px 0px 5px grey;
 
     transition: all .2s ease-in-out; 
 }
+
 .card img:hover {
     transform: scale(1.1);
 }
+
 </style>
