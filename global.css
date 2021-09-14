@@ -1,0 +1,121 @@
+
+
+.js-loading {
+	background-position: 50%;
+	background-image: url("https://app.pixelworm.io/assets/images/px_new_loading.gif");
+	background-repeat: no-repeat;
+	animation: loader 1s;
+	animation-delay: 0.5s;
+	background-size: 0%;
+	animation-fill-mode: forwards;
+
+	background-color: var(--main-bg-colour);
+}
+
+@media all and (prefers-color-scheme: dark) {
+	:root {
+		--main-bg-colour: #0f0f0f
+	}
+
+	#text, h2 {
+		color: #ddd;
+	}
+}
+
+@media not all and (prefers-color-scheme: dark) {
+	:root {
+		--main-bg-colour: #fff;
+	}
+
+	body {
+		color: #333;
+	}
+}
+
+@keyframes loader {
+	0% { background-size: 0%; }
+	100% { background-size: 50%; }
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	transition: 0.25s;
+	-webkit-text-decoration-color: transparent;
+	-moz-text-decoration-color: transparent;
+}
+
+.js-loading * {
+  	animation-play-state: paused !important;
+}
+
+
+a:hover {
+
+	text-decoration-color:rgb(0,100,200);
+	-webkit-text-decoration-color: rgb(0,100,200);
+	-moz-text-decoration-color: rgb(0,100,200);
+}
+
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
