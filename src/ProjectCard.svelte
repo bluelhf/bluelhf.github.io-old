@@ -2,11 +2,9 @@
     export let href;
     let promise = Promise.resolve([]);
 	async function fetchMeta() {
-		const response = await fetch("http://api.lhf.blue/preview?url=" + encodeURIComponent(href), {
+		const response = await fetch("https://api.lhf.blue/preview?url=" + encodeURIComponent(href), {
             "method": "GET"
         });
-        await new Promise(resolve => setTimeout(resolve, 500));
-        
         return await response.json()
 	}
     promise = fetchMeta();
