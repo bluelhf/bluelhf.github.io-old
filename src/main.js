@@ -32,7 +32,7 @@ setInterval(() => {
 const app = new App({
 	target: document.body,
 	props: {
-		src: 'build/assets/ilari.webp'
+		src: 'build/assets/picrew.webp'
 	}
 });
 

@@ -48,6 +48,10 @@
 
 <style>
 
+	h1 {
+		color: #7FBDDC !important;
+	}
+
 	.icon i {
 		color: var(--main-bg-colour);
 		filter: invert();
