@@ -52,7 +52,7 @@
     transition: all .2s ease-in-out; 
 }
 
-.card img:hover {
+.card img:hover, .card-template img:hover {
     transform: scale(1.1);
 }
 
