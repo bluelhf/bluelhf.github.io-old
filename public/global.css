@@ -2,7 +2,7 @@
 
 .js-loading {
 	background-position: 50%;
-	background-image: url("https://app.pixelworm.io/assets/images/px_new_loading.gif");
+	background-image: url("build/assets/loader.gif");
 	background-repeat: no-repeat;
 	animation: loader 1s;
 	animation-delay: 0.5s;
@@ -34,7 +34,7 @@
 
 @keyframes loader {
 	0% { background-size: 0%; }
-	100% { background-size: 50%; }
+	100% { background-size: 9%; }
 }
 
 @keyframes fadeIn {
