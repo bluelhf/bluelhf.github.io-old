@@ -12,14 +12,14 @@
 
 <div class="card-wrapper">
     <div class="card-template">
-        <img alt="Project Card" src="build/assets/template.webp" width="300" height="150" />
+        <img alt="" src="build/assets/template.webp" width="300" height="150" />
     </div>
     {#await promise}
         <!-- Do nothing -->
     {:then data}
     <div class="card">
         <a href={href}>
-            <img alt="Project Card" src={data.ogImage.url} width={data.ogImage.width} height={data.ogImage.height}/>
+            <img alt="" src={data.ogImage.url} width={data.ogImage.width} height={data.ogImage.height}/>
         </a>
     </div>
     {/await}
@@ -30,6 +30,18 @@
 .card, .card-template {
     animation: fadeIn 0.5s;
     animation-timing-function: cubic-bezier();
+}
+
+@media all and (prefers-color-scheme: dark) {
+    .card img, .card-template img {
+        box-shadow: 0px 0px 5px grey;
+    }
+}
+
+@media not all and (prefers-color-scheme: dark) {
+    .card img, .card-template img {
+        box-shadow: 0px 0px 5px #eeeeee;
+    }
 }
 
 .card-wrapper {
@@ -47,7 +59,7 @@
     width: 30em;
     border-radius: 10px;
     height: auto;
-    box-shadow: 0px 0px 5px grey;
+    
 
     transition: all .2s ease-in-out; 
 }
