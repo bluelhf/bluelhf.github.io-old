@@ -28,7 +28,7 @@
 		<a class="icon" target="_blank" href={socials.discord}><i class="fab fa-discord" title="@Ilari"></i></a>
 		<a class="icon" target="_blank" href={socials.github}><i class="fab fa-github" title="@bluelhf"></i></a>
 		<a class="icon" target="_blank" href={socials.twitter}><i class="fab fa-twitter" title="@IlariSuhonen"></i></a>
-		<a class="icon" target="_blank" href={socials.polywork}><i class="fab fa-polywork" title="@bluelhf"></i></a>
+		<a class="icon" target="_blank" href={socials.polywork}><i class="fas fa-th" title="@bluelhf"></i></a>
 	</div>
 	<p id="text">
 		i'm a {Math.floor((new Date() - new Date('2005-12-21').getTime()) / 3.15576e+10)}-year-old programmer with a particular
@@ -50,15 +50,23 @@
 
 <style>
 
-	.fa-polywork::before {
-		background-image: url("assets/polywork.png");
-		content: "";
-		padding-left: 1rem;
-		background-size: 1rem;
-	}
 
-	h1 {
-		color: #7FBDDC !important;
+
+
+
+
+
+	@media all and (prefers-color-scheme: dark) {
+		h1 {
+			color: #7FBDDC !important;
+		}
+	}
+	
+
+	@media not all and (prefers-color-scheme: dark) {
+		h1 {
+			color: rgb(51, 51, 51) !important;
+		}
 	}
 
 	.icon i {
