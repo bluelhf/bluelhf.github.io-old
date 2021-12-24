@@ -1,4 +1,4 @@
-import App from './App.svelte';
+import Home from './Home.svelte';
 
 window.addEventListener("load", showPage);
 
@@ -29,11 +29,12 @@ setInterval(() => {
 	pastVW[1] = window.outerWidth;
 }, 100);
 
-const app = new App({
+const home = new Home({
 	target: document.body,
 	props: {
-		src: 'build/assets/picrew.webp'
+		src: '/dist/home/assets/picrew.webp',
+        user: 'bluelhf'
 	}
 });
 
-export default app;
+export default home;

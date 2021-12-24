@@ -1,10 +1,16 @@
 import svelte from 'rollup-plugin-svelte';
-import copy from "rollup-plugin-copy-assets";
+import copy from "rollup-plugin-copy";
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
+import { wasm } from '@rollup/plugin-wasm';
+
+
+import { visualizer } from 'rollup-plugin-visualizer';
+
+var glob = require("glob");
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -29,14 +35,16 @@ function serve() {
 	};
 }
 
+
 export default {
-	input: 'src/main.js',
+	input: ['src/home/home.js', 'src/paste/paste.js'],
 	output: {
 		sourcemap: true,
-		format: 'iife',
+		format: 'es',
 		name: 'app',
-		file: 'public/build/bundle.js'
+		dir: 'public/dist/'
 	},
+    external: glob.sync("**/utils/**", {cwd: 'public'}).map(s => "/" + s),
 	plugins: [
 		svelte({
 			compilerOptions: {
@@ -44,15 +52,19 @@ export default {
 				dev: !production
 			}
 		}),
-
 		// copy our assets, too
 		copy({
-			assets: [
-			    "src/assets"
-			],
+            targets: [
+                { src: 'src/paste/assets', 'dest': 'public/dist/paste/' },
+                { src: 'src/paste/utils', 'dest': 'public/dist/paste/' },
+                { src: 'src/home/assets', 'dest': 'public/dist/home/' },
+                { src: 'src/home/utils', 'dest': 'public/dist/home/s' },     
+            ]
 		}),
+
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
+		wasm(),
 		css({ output: 'bundle.css' }),
 
 		// If you have external dependencies installed from
@@ -64,8 +76,7 @@ export default {
 			browser: true,
 			dedupe: ['svelte']
 		}),
-		commonjs(),
-
+		commonjs(), visualizer(),
 		// In dev mode, call `npm run start` once
 		// the bundle has been generated
 		!production && serve(),

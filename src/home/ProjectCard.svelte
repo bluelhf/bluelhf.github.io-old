@@ -1,28 +1,29 @@
 <script>
-    export let href;
+    export let project;
     let promise = Promise.resolve([]);
 	async function fetchMeta() {
-		const response = await fetch("https://api.lhf.blue/preview?url=" + encodeURIComponent(href), {
-            "method": "GET"
-        });
-        return await response.json()
+        try {
+            const response = await fetch(`https://opengraph.githubassets.com/1/${project.full_name}`, {
+                "method": "GET"
+            });
+            return response.body;
+        } catch (e) {
+            return {};
+        }
 	}
     promise = fetchMeta();
 </script>
 
 <div class="card-wrapper">
     <div class="card-template">
-        <img alt="" src="build/assets/template.webp" width="300" height="150" />
+        <img alt="" src="/dist/home/assets/template.webp" width="300" height="150" />
     </div>
-    {#await promise}
-        <!-- Do nothing -->
-    {:then data}
     <div class="card">
-        <a href={href}>
-            <img alt="" src={data.ogImage.url} width={data.ogImage.width} height={data.ogImage.height}/>
+        <a href={project.html_url}>
+            <img alt="" src={`https://opengraph.githubassets.com/1/${project.full_name}`}/>
         </a>
     </div>
-    {/await}
+
 </div>
 
 

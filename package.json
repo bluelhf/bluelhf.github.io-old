@@ -5,20 +5,25 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear --host"
+    "start": "sirv public -s --no-clear --host"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-dynamic-import-vars": "^1.4.1",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-wasm": "^5.1.2",
     "rollup": "^2.3.4",
-    "rollup-plugin-copy-assets": "^2.0.3",
+    "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.0",
+    "rollup-plugin-visualizer": "^5.5.2",
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "codemirror": "^5.64.0",
+    "sirv-cli": "^1.0.0",
+    "svelte-navigator": "^3.1.5"
   }
 }
