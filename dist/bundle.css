@@ -1,42 +1,6 @@
 .svelte-mld2b4.svelte-mld2b4:focus{transform:scale(1.05);outline:none;transition:transform 0.05s ease;text-shadow:rgba(21, 156, 228, 0.4) 0px 0px 10px}a.svelte-mld2b4.svelte-mld2b4{color:rgb(0,100,200);text-decoration:underline;text-decoration-color:transparent;transition:0.25s;-webkit-text-decoration-color:transparent;-moz-text-decoration-color:transparent}a.svelte-mld2b4.svelte-mld2b4:hover{text-decoration-color:rgb(0,100,200);-webkit-text-decoration-color:rgb(0,100,200);-moz-text-decoration-color:rgb(0,100,200)}a.svelte-mld2b4.svelte-mld2b4:visited{color:rgb(0,80,160)}@media all and (prefers-color-scheme: dark){h1.svelte-mld2b4.svelte-mld2b4{color:#7FBDDC !important}}@media not all and (prefers-color-scheme: dark){h1.svelte-mld2b4.svelte-mld2b4{color:rgb(51, 51, 51) !important}}.icon.svelte-mld2b4 i.svelte-mld2b4{color:var(--main-bg-colour);filter:invert();margin:0 .5em;transition:all .2s ease-in-out}.icon.svelte-mld2b4 i.svelte-mld2b4:hover{transform:rotateZ(12deg)}#header.svelte-mld2b4.svelte-mld2b4{margin-bottom:3vh}#header.svelte-mld2b4 h1.svelte-mld2b4{margin-bottom:0;font-size:calc(max(5vw, 5vh))}#text.svelte-mld2b4.svelte-mld2b4{margin:0 auto;max-width:30em}#photo.svelte-mld2b4.svelte-mld2b4{object-fit:cover;width:max(20vh, 20vw);height:auto;border-radius:50%;animation:fadeIn 0.95s;margin:0 auto;padding-top:1vh}:root{background-color:var(--main-bg-colour)}main.svelte-mld2b4.svelte-mld2b4{display:grid;max-width:100%;margin:0 auto;align-items:center;display:grid;animation:fadeIn 0.75s;text-align:center}h1.svelte-mld2b4.svelte-mld2b4{color:#ff3e00;font-size:4em;font-weight:100}#code-container{height:100% !important}#info.svelte-6kaqvb.svelte-6kaqvb{z-index:999;font-size:1.5em;font-family:monospace;filter:opacity(50%);text-align:right;position:absolute;top:0.5em;right:1em}#info.svelte-6kaqvb pre.svelte-6kaqvb{margin:0}:root{--cm-border-color:#ccc;--cm-background-color:#222;--cm-medium-color:#ccc;--cm-text-color:white}.CodeMirror{font-family:monospace;font-size:1.5em;height:100%;direction:ltr;color:var(--cm-text-color);background:var(--cm-background-color)}.CodeMirror-lines{padding:4px 0}.CodeMirror pre.CodeMirror-line,.CodeMirror pre.CodeMirror-line-like{padding:0 4px}.CodeMirror-scrollbar-filler,.CodeMirror-gutter-filler{background-color:var(
         --cm-background-color
         )}.CodeMirror-gutters{border-right:1px solid var(--cm-border-color);background-color:var(--cm-background-color);white-space:nowrap}.CodeMirror-linenumber{padding:0 3px 0 5px;min-width:20px;text-align:right;color:#ddd;white-space:nowrap}.CodeMirror-guttermarker{color:var(--cm-text-color)}.CodeMirror-guttermarker-subtle{color:#999}.CodeMirror-cursor{border-left:2px solid var(--cm-medium-color);border-right:none;width:0}.CodeMirror div.CodeMirror-secondarycursor{border-left:1px solid var(--cm-medium-color)}.cm-fat-cursor .CodeMirror-cursor{width:auto;border:0 !important;background:var(--cursor-color)}.cm-fat-cursor div.CodeMirror-cursors{z-index:1}.cm-fat-cursor-mark{background-color:var(--cursor-color);-webkit-animation:svelte-6kaqvb-blink 1.06s steps(1) infinite;-moz-animation:svelte-6kaqvb-blink 1.06s steps(1) infinite;animation:svelte-6kaqvb-blink 1.06s steps(1) infinite}.cm-animate-fat-cursor{width:auto;border:0;-webkit-animation:svelte-6kaqvb-blink 1.06s steps(1) infinite;-moz-animation:svelte-6kaqvb-blink 1.06s steps(1) infinite;animation:svelte-6kaqvb-blink 1.06s steps(1) infinite;background-color:var(--cursor-color)}@-moz-keyframes svelte-6kaqvb-blink{0%{}50%{background-color:transparent}100%{}}@-webkit-keyframes svelte-6kaqvb-blink{0%{}50%{background-color:transparent}100%{}}@keyframes svelte-6kaqvb-blink{0%{}50%{background-color:transparent}100%{}}.cm-tab{display:inline-block;text-decoration:inherit}.CodeMirror-rulers{position:absolute;left:0;right:0;top:-50px;bottom:0;overflow:hidden}.CodeMirror-ruler{border-left:1px solid var(--cm-medium-color);top:0;bottom:0;position:absolute}.cm-s-default .cm-header{color:blue}.cm-s-default .cm-quote{color:#090}.cm-negative{color:#d44}.cm-positive{color:#292}.cm-header,.cm-strong{font-weight:bold}.cm-em{font-style:italic}.cm-link{text-decoration:underline}.cm-strikethrough{text-decoration:line-through}.cm-s-default .cm-keyword{color:#708}.cm-s-default .cm-atom{color:#219}.cm-s-default .cm-number{color:#164}.cm-s-default .cm-def{color:#00f}.cm-s-default .cm-variable-2{color:#05a}.cm-s-default .cm-variable-3,.cm-s-default .cm-type{color:#085}.cm-s-default .cm-comment{color:#a50}.cm-s-default .cm-string{color:#a11}.cm-s-default .cm-string-2{color:#f50}.cm-s-default .cm-meta{color:#555}.cm-s-default .cm-qualifier{color:#555}.cm-s-default .cm-builtin{color:#30a}.cm-s-default .cm-bracket{color:#997}.cm-s-default .cm-tag{color:#170}.cm-s-default .cm-attribute{color:#00c}.cm-s-default .cm-hr{color:#999}.cm-s-default .cm-link{color:#00c}.cm-s-default .cm-error{color:#f00}.cm-invalidchar{color:#f00}.CodeMirror-composing{border-bottom:2px solid}div.CodeMirror span.CodeMirror-matchingbracket{color:#0b0}div.CodeMirror span.CodeMirror-nonmatchingbracket{color:#a22}.CodeMirror-matchingtag{background:rgba(255, 150, 0, 0.3)}.CodeMirror-activeline-background{background:#e8f2ff}.CodeMirror{position:relative;overflow:hidden}.CodeMirror-scroll{overflow:scroll !important;margin-bottom:-30px;margin-right:-30px;padding-bottom:30px;height:100%;outline:none;position:relative}.CodeMirror-sizer{position:relative;border-right:30px solid transparent}.CodeMirror-vscrollbar,.CodeMirror-hscrollbar,.CodeMirror-scrollbar-filler,.CodeMirror-gutter-filler{position:absolute;z-index:6;display:none}.CodeMirror ::-webkit-scrollbar{width:8px;height:8px}.CodeMirror ::-webkit-scrollbar-track{background:#f4f4f4;border-radius:10px}.CodeMirror ::-webkit-scrollbar-thumb{border-radius:10px;background:var(--cm-medium-color)}.CodeMirror-vscrollbar{right:0;top:0;overflow-x:hidden;overflow-y:scroll}.CodeMirror-hscrollbar{bottom:0;left:0;overflow-y:hidden;overflow-x:scroll;height:8px}.CodeMirror-scrollbar-filler{right:0;bottom:0}.CodeMirror-gutter-filler{left:0;bottom:0}.CodeMirror-gutters{position:absolute;left:0;top:0;min-height:100%;z-index:3}.CodeMirror-gutter{white-space:normal;height:100%;display:inline-block;vertical-align:top;margin-bottom:-30px}.CodeMirror-gutter-wrapper{position:absolute;z-index:4;background:none !important;border:none !important}.CodeMirror-gutter-background{position:absolute;top:0;bottom:0;z-index:4}.CodeMirror-gutter-elt{position:absolute;cursor:default;z-index:4}.CodeMirror-gutter-wrapper ::selection{background-color:transparent}.CodeMirror-gutter-wrapper ::-moz-selection{background-color:transparent}.CodeMirror-lines{cursor:text;min-height:1px}.CodeMirror pre.CodeMirror-line,.CodeMirror pre.CodeMirror-line-like{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border-width:0;background:transparent;font-family:inherit;font-size:inherit;margin:0;white-space:pre;word-wrap:normal;line-height:inherit;color:inherit;z-index:2;position:relative;overflow:visible;-webkit-tap-highlight-color:transparent;-webkit-font-variant-ligatures:contextual;font-variant-ligatures:contextual}.CodeMirror-wrap pre.CodeMirror-line,.CodeMirror-wrap pre.CodeMirror-line-like{word-wrap:break-word;white-space:pre-wrap;word-break:normal}.CodeMirror-linebackground{position:absolute;left:0;right:0;top:0;bottom:0;z-index:0}.CodeMirror-linewidget{position:relative;z-index:2;padding:0.1px}.CodeMirror-rtl pre{direction:rtl}.CodeMirror-code{outline:none}.CodeMirror-scroll,.CodeMirror-sizer,.CodeMirror-gutter,.CodeMirror-gutters,.CodeMirror-linenumber{-moz-box-sizing:content-box;box-sizing:content-box}.CodeMirror-measure{position:absolute;width:100%;height:0;overflow:hidden;visibility:hidden}.CodeMirror-cursor{position:absolute;pointer-events:none}.CodeMirror-measure pre{position:static}div.CodeMirror-cursors{visibility:visible;position:relative;z-index:3}div.CodeMirror-dragcursors{visibility:visible}.CodeMirror-focused div.CodeMirror-cursors{visibility:visible}.CodeMirror-selected{background:#d9d9d9}.CodeMirror-focused .CodeMirror-selected{background:#d7d4f0}.CodeMirror-crosshair{cursor:crosshair}.CodeMirror-line::selection,.CodeMirror-line > span::selection,.CodeMirror-line > span > span::selection{background:#d7d4f0}.CodeMirror-line::-moz-selection,.CodeMirror-line > span::-moz-selection,.CodeMirror-line > span > span::-moz-selection{background:#d7d4f0}.cm-searching{background-color:#ffa;background-color:rgba(255, 255, 0, 0.4)}.cm-force-border{padding-right:0.1px}@media print{.CodeMirror div.CodeMirror-cursors{visibility:hidden}}.cm-tab-wrap-hack:after{content:""}span.CodeMirror-selectedtext{background:none}.card.svelte-1cl675z.svelte-1cl675z,.card-template.svelte-1cl675z.svelte-1cl675z{animation:fadeIn 0.5s;animation-timing-function:cubic-bezier()}@media all and (prefers-color-scheme: dark){.card.svelte-1cl675z img.svelte-1cl675z,.card-template.svelte-1cl675z img.svelte-1cl675z{box-shadow:0px 0px 5px grey}}@media not all and (prefers-color-scheme: dark){.card.svelte-1cl675z img.svelte-1cl675z,.card-template.svelte-1cl675z img.svelte-1cl675z{box-shadow:0px 0px 5px #eeeeee}}.card-wrapper.svelte-1cl675z.svelte-1cl675z{display:grid}.card.svelte-1cl675z.svelte-1cl675z,.card-template.svelte-1cl675z.svelte-1cl675z{grid-area:1 / 1}.card.svelte-1cl675z img.svelte-1cl675z,.card-template.svelte-1cl675z img.svelte-1cl675z{margin:1%;max-width:85vw;margin:0 0 1em 0;width:30em;border-radius:10px;height:auto;transition:all .2s ease-in-out}.card.svelte-1cl675z img.svelte-1cl675z:hover,.card-template.svelte-1cl675z img.svelte-1cl675z:hover{transform:scale(1.1)}/*
-Name:   DuoTone-Light
-Author: by Bram de Haan, adapted from DuoTone themes by Simurai (http://simurai.com/projects/2016/01/01/duotone-themes)
-
-CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
-*/
-
-.cm-s-duotone-light.CodeMirror { background: #faf8f5; color: #b29762; }
-.cm-s-duotone-light div.CodeMirror-selected { background: #e3dcce !important; }
-.cm-s-duotone-light .CodeMirror-gutters { background: #faf8f5; border-right: 0px; }
-.cm-s-duotone-light .CodeMirror-linenumber { color: #cdc4b1; }
-
-/* begin cursor */
-.cm-s-duotone-light .CodeMirror-cursor { border-left: 1px solid #93abdc; /* border-left: 1px solid #93abdc80; */ border-right: .5em solid #93abdc; /* border-right: .5em solid #93abdc80; */ opacity: .5; }
-.cm-s-duotone-light .CodeMirror-activeline-background { background: #e3dcce;  /* background: #e3dcce80; */ opacity: .5; }
-.cm-s-duotone-light .cm-fat-cursor .CodeMirror-cursor { background: #93abdc; /* #93abdc80; */ opacity: .5; }
-/* end cursor */
-
-.cm-s-duotone-light span.cm-atom, .cm-s-duotone-light span.cm-number, .cm-s-duotone-light span.cm-keyword, .cm-s-duotone-light span.cm-variable, .cm-s-duotone-light span.cm-attribute, .cm-s-duotone-light span.cm-quote, .cm-s-duotone-light-light span.cm-hr, .cm-s-duotone-light-light span.cm-link { color: #063289; }
-
-.cm-s-duotone-light span.cm-property { color: #b29762; }
-.cm-s-duotone-light span.cm-punctuation, .cm-s-duotone-light span.cm-unit, .cm-s-duotone-light span.cm-negative { color: #063289; }
-.cm-s-duotone-light span.cm-string, .cm-s-duotone-light span.cm-operator { color: #1659df; }
-.cm-s-duotone-light span.cm-positive { color: #896724; }
-
-.cm-s-duotone-light span.cm-variable-2, .cm-s-duotone-light span.cm-variable-3, .cm-s-duotone-light span.cm-type, .cm-s-duotone-light span.cm-string-2, .cm-s-duotone-light span.cm-url { color: #896724; }
-.cm-s-duotone-light span.cm-def, .cm-s-duotone-light span.cm-tag, .cm-s-duotone-light span.cm-builtin, .cm-s-duotone-light span.cm-qualifier, .cm-s-duotone-light span.cm-header, .cm-s-duotone-light span.cm-em { color: #2d2006; }
-.cm-s-duotone-light span.cm-bracket, .cm-s-duotone-light span.cm-comment { color: #b6ad9a; }
-
-/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
-/* .cm-s-duotone-light span.cm-error { background: #896724; color: #728fcb; } */
-.cm-s-duotone-light span.cm-error, .cm-s-duotone-light span.cm-invalidchar { color: #f00; }
-
-.cm-s-duotone-light span.cm-header { font-weight: normal; }
-.cm-s-duotone-light .CodeMirror-matchingbracket { text-decoration: underline; color: #faf8f5 !important; }
-
-/*
 
     Name:       seti
     Author:     Michael Kaminsky (http://github.com/mkaminsky11)
@@ -80,6 +44,42 @@ CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bra
 .cm-s-seti span.cm-builtin { color: #9fca56; }
 .cm-s-seti .CodeMirror-activeline-background { background: #101213; }
 .cm-s-seti .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
+/*
+Name:   DuoTone-Light
+Author: by Bram de Haan, adapted from DuoTone themes by Simurai (http://simurai.com/projects/2016/01/01/duotone-themes)
+
+CodeMirror template by Jan T. Sott (https://github.com/idleberg), adapted by Bram de Haan (https://github.com/atelierbram/)
+*/
+
+.cm-s-duotone-light.CodeMirror { background: #faf8f5; color: #b29762; }
+.cm-s-duotone-light div.CodeMirror-selected { background: #e3dcce !important; }
+.cm-s-duotone-light .CodeMirror-gutters { background: #faf8f5; border-right: 0px; }
+.cm-s-duotone-light .CodeMirror-linenumber { color: #cdc4b1; }
+
+/* begin cursor */
+.cm-s-duotone-light .CodeMirror-cursor { border-left: 1px solid #93abdc; /* border-left: 1px solid #93abdc80; */ border-right: .5em solid #93abdc; /* border-right: .5em solid #93abdc80; */ opacity: .5; }
+.cm-s-duotone-light .CodeMirror-activeline-background { background: #e3dcce;  /* background: #e3dcce80; */ opacity: .5; }
+.cm-s-duotone-light .cm-fat-cursor .CodeMirror-cursor { background: #93abdc; /* #93abdc80; */ opacity: .5; }
+/* end cursor */
+
+.cm-s-duotone-light span.cm-atom, .cm-s-duotone-light span.cm-number, .cm-s-duotone-light span.cm-keyword, .cm-s-duotone-light span.cm-variable, .cm-s-duotone-light span.cm-attribute, .cm-s-duotone-light span.cm-quote, .cm-s-duotone-light-light span.cm-hr, .cm-s-duotone-light-light span.cm-link { color: #063289; }
+
+.cm-s-duotone-light span.cm-property { color: #b29762; }
+.cm-s-duotone-light span.cm-punctuation, .cm-s-duotone-light span.cm-unit, .cm-s-duotone-light span.cm-negative { color: #063289; }
+.cm-s-duotone-light span.cm-string, .cm-s-duotone-light span.cm-operator { color: #1659df; }
+.cm-s-duotone-light span.cm-positive { color: #896724; }
+
+.cm-s-duotone-light span.cm-variable-2, .cm-s-duotone-light span.cm-variable-3, .cm-s-duotone-light span.cm-type, .cm-s-duotone-light span.cm-string-2, .cm-s-duotone-light span.cm-url { color: #896724; }
+.cm-s-duotone-light span.cm-def, .cm-s-duotone-light span.cm-tag, .cm-s-duotone-light span.cm-builtin, .cm-s-duotone-light span.cm-qualifier, .cm-s-duotone-light span.cm-header, .cm-s-duotone-light span.cm-em { color: #2d2006; }
+.cm-s-duotone-light span.cm-bracket, .cm-s-duotone-light span.cm-comment { color: #b6ad9a; }
+
+/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
+/* .cm-s-duotone-light span.cm-error { background: #896724; color: #728fcb; } */
+.cm-s-duotone-light span.cm-error, .cm-s-duotone-light span.cm-invalidchar { color: #f00; }
+
+.cm-s-duotone-light span.cm-header { font-weight: normal; }
+.cm-s-duotone-light .CodeMirror-matchingbracket { text-decoration: underline; color: #faf8f5 !important; }
+
 .CodeMirror-dialog {
   position: absolute;
   left: 0; right: 0;
